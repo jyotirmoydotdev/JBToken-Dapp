@@ -1,6 +1,6 @@
 {
   "name": "jbtoken-dapp",
-  "homepage": ".",
+  "homepage": "https://jyotirmoydotdev.github.io/jbtoken-dapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "ethers": "^5",
+    "gh-pages": "^5.0.0",
     "react": "^18.2",
     "react-dom": "^18.2",
     "react-scripts": "^5.0.1",
@@ -21,11 +22,12 @@
     "tailwindcss": "^3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "yarn build && npx thirdweb@latest upload build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
