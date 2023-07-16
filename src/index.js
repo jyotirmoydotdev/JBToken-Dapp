@@ -15,11 +15,9 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-    <div className="">
     <ThirdwebProvider activeChain={activeChain}>
       <App />
     </ThirdwebProvider>
-    </div>
   </React.StrictMode>
 );
 
