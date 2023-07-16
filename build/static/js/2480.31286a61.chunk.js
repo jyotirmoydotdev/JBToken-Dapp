@@ -1,0 +1,1 @@
+(self.webpackChunkjbtoken_dapp=self.webpackChunkjbtoken_dapp||[]).push([[2480],{42480:function(){}}]);
