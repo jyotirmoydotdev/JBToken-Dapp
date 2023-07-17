@@ -22,7 +22,6 @@ This section has the list of frameworks/libraries used to bootstrap my project.
 <div align="center">
 
  ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&ogoColor=61DAFB)
- ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
  ![](https://img.shields.io/badge/Thirdweb-deeppink?style=for-the-badge)
  ![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
  ![](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
